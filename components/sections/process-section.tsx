@@ -20,10 +20,10 @@ export function ProcessSection() {
                     className="mb-16 text-center"
                 >
                     <h2 className="text-3xl lg:text-4xl font-medium tracking-tight mb-4 text-neutral-900 dark:text-white">
-                        Cómo trabajamos
+                        Tu camino a más reservas.
                     </h2>
                     <p className="text-neutral-500 dark:text-neutral-400">
-                        Un proceso simplificado en 4 pasos.
+                        Un proceso simple para que empieces a vender directo.
                     </p>
                 </motion.div>
 

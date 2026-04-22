@@ -25,16 +25,16 @@ export function SolutionsSection() {
                         className="lg:col-span-1"
                     >
                         <h2 className="text-3xl lg:text-4xl font-medium tracking-tight mb-6 text-neutral-900 dark:text-white">
-                            Soluciones que impulsan tu negocio.
+                            Tu ventaja competitiva.
                         </h2>
                         <p className="text-neutral-500 dark:text-neutral-400 mb-8 font-light">
-                            No vendemos código, vendemos crecimiento. Nuestras herramientas están diseñadas para convertir visitas en clientes reales.
+                            Olvídate de perseguir clientes. Creamos la estructura necesaria para que los turistas lleguen a ti listos para reservar.
                         </p>
                         <Link
                             href="#"
                             className="inline-flex items-center gap-2 text-sm font-medium text-neutral-900 dark:text-white border-b border-transparent hover:border-neutral-900 dark:hover:border-white transition-all pb-0.5"
                         >
-                            Ver todos los servicios
+                            Ver todos los beneficios
                             <Icon icon="solar:arrow-right-up-linear" />
                         </Link>
                     </motion.div>

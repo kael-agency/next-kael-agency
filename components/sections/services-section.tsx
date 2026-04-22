@@ -24,7 +24,7 @@ export function ServicesSection() {
                         ¿Para quién es esto?
                     </h2>
                     <p className="text-neutral-500 dark:text-neutral-400">
-                        Diseñamos soluciones digitales específicas para tu industria.
+                        Ayudamos a los principales sectores que impulsan el turismo en el Huila.
                     </p>
                 </motion.div>
 

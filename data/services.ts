@@ -1,23 +1,22 @@
-
 export const services = [
     {
-        icon: "solar:scissors-linear",
-        title: "Barberías y Salones",
-        description: "Sistemas de reserva y galerías visuales que llenan tu agenda.",
+        icon: "solar:home-2-linear",
+        title: "Fincas Turísticas",
+        description: "Haz que tu finca sea la primera opción para las familias que buscan descanso. Más turistas, sin depender de intermediarios.",
     },
     {
-        icon: "solar:cup-linear",
-        title: "Cafeterías",
-        description: "Menús digitales y presencia local para atraer más comensales.",
+        icon: "solar:tent-linear",
+        title: "Glampings",
+        description: "Atrae viajeros buscando experiencias únicas o escapadas. Vende la experiencia directamente y cierra la reserva por tu WhatsApp.",
     },
     {
-        icon: "solar:heart-pulse-linear",
-        title: "Salud",
-        description: "Sitios web profesionales que transmiten confianza y seguridad.",
+        icon: "solar:camera-linear",
+        title: "Experiencias Locales",
+        description: "Ya sea un tour de café o una cabalgata en San Agustín, hacemos que más turistas descubran y compren tus actividades de forma directa.",
     },
     {
-        icon: "solar:shop-linear",
-        title: "Negocios Locales",
-        description: "Estrategias digitales para posicionarte en tu zona.",
+        icon: "solar:map-point-linear",
+        title: "Hospedajes de Aventura",
+        description: "Destaca tu hospedaje cerca al Desierto de la Tatacoa o Rivera y conviértelo en una parada obligatoria para el turista.",
     },
 ];

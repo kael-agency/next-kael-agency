@@ -33,7 +33,7 @@ export function HeroSection() {
                                 <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
                             </span>
                             <span className="text-xs font-medium tracking-wide text-neutral-600 dark:text-neutral-400 uppercase">
-                                Disponible para proyectos
+                                🍃 Impulsando el Turismo en el Huila
                             </span>
                         </motion.div>
 
@@ -44,9 +44,9 @@ export function HeroSection() {
                             transition={{ delay: 0.1 }}
                             className="text-5xl lg:text-6xl font-medium tracking-tight text-neutral-900 dark:text-white mb-6 leading-[1.1]"
                         >
-                            Transformamos <br />
-                            <span className="text-neutral-400 dark:text-neutral-500">ideas complejas en</span> <br />
-                            productos digitales.
+                            Llena tu Finca o <br />
+                            <span className="text-neutral-400 dark:text-neutral-500">Glamping de Turistas,</span> <br />
+                            Sin Pagar Altas Comisiones.
                         </motion.h1>
 
                         <motion.p
@@ -56,7 +56,7 @@ export function HeroSection() {
                             transition={{ delay: 0.2 }}
                             className="text-lg text-neutral-600 dark:text-neutral-400 max-w-xl mx-auto lg:mx-0 mb-10 font-light leading-relaxed"
                         >
-                            Ayudamos a marcas ambiciosas a destacar con diseño de clase mundial y desarrollo web de alto rendimiento. Sin burocracia, solo resultados.
+                            Ayudamos a dueños de negocios turísticos en el Huila a recibir reservas directas por WhatsApp. Simple, directo y sin enredos técnicos.
                         </motion.p>
 
                         <motion.div
@@ -70,16 +70,18 @@ export function HeroSection() {
                                 size="lg"
                                 color={appColor}
                                 className="font-medium px-8 h-12"
-                                endContent={<Icon icon="solar:arrow-right-linear" width={18} />}
+                                endContent={<Icon icon="solar:chat-round-line-linear" width={18} />}
+                                onClick={() => window.open(`https://wa.me/573125650605?text=${encodeURIComponent("Hola, quiero llenar mi calendario de reservas de forma directa")}`, '_blank')}
                             >
-                                Iniciar proyecto
+                                Quiero llenar mi calendario
                             </Button>
                             <Button
                                 size="lg"
                                 variant="bordered"
                                 className="border border-neutral-200 dark:border-neutral-800 text-neutral-600 dark:text-neutral-300 font-medium px-8 h-12 hover:bg-neutral-50 dark:hover:bg-neutral-900"
+                                onClick={() => document.getElementById('solutions')?.scrollIntoView({ behavior: 'smooth' })}
                             >
-                                Explorar trabajo
+                                Ver cómo funciona
                             </Button>
                         </motion.div>
                     </div>

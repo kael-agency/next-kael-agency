@@ -29,10 +29,10 @@ export function ContactSection() {
                         className="mb-16"
                     >
                         <h2 className="text-4xl md:text-5xl font-bold mb-6 tracking-tight text-neutral-900 dark:text-white">
-                            Hablemos de tu proyecto.
+                            Empecemos a llenar tu agenda hoy mismo.
                         </h2>
                         <p className="text-muted-foreground text-lg leading-relaxed text-pretty max-w-2xl mx-auto">
-                            ¿Listo para llevar tu negocio al siguiente nivel? Estamos aquí para ayudarte a construir soluciones digitales excepcionales.
+                            ¿Listo para dejar de pagar comisiones y recibir más huéspedes? Escríbenos directamente a nuestro WhatsApp o correo y evaluemos tu caso sin compromiso.
                         </p>
                     </motion.div>
 

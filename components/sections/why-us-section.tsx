@@ -28,13 +28,13 @@ export function WhyUsSection() {
                             className="text-3xl lg:text-4xl font-medium tracking-tight mb-6 text-neutral-900 dark:text-white"
                             variants={slideUp}
                         >
-                            ¿Por qué elegirnos?
+                            ¿Por qué confiar en nosotros?
                         </motion.h2>
                         <motion.p
                             className="text-neutral-500 dark:text-neutral-400 mb-8 leading-relaxed"
                             variants={slideUp}
                         >
-                            En un mar de agencias genéricas, nos enfocamos en ser el socio estratégico que realmente entiende las necesidades de un negocio moderno.
+                            Sabemos que tu negocio es tu patrimonio. Por eso, no somos una agencia más; somos tus aliados locales para que tu finca o glamping crezca con clientes reales.
                         </motion.p>
 
                         <ul className="space-y-4">
