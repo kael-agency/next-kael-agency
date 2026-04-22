@@ -27,7 +27,7 @@ export function Footer() {
                             </span>
                         </Link>
                         <p className="text-neutral-500 dark:text-neutral-400 text-sm leading-relaxed mb-8 max-w-xs">
-                            Transformamos ideas en experiencias digitales excepcionales. Diseño y desarrollo web de alto impacto.
+                            Especialistas en generar reservas directas para el sector turismo en el Huila. Ayudamos a fincas, glampings y experiencias locales a crecer sin depender de intermediarios.
                         </p>
                         <div className="flex gap-4">
                             {socialLinks.map((social, index) => (
@@ -48,7 +48,7 @@ export function Footer() {
 
                     {/* Links Columns */}
                     <div>
-                        <h4 className="font-bold text-neutral-900 dark:text-white mb-6">Servicios</h4>
+                        <h4 className="font-bold text-neutral-900 dark:text-white mb-6">Especialidades</h4>
                         <ul className="space-y-4">
                             {footerLinks.services.map((link, index) => (
                                 <li key={index}>

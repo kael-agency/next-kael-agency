@@ -1,22 +1,21 @@
 
 export const navMenuItems = [
-    { label: "Servicios", href: "#services" },
-/*     { label: "Soluciones", href: "#solutions" }, */
-    { label: "Proyectos", href: "#projects" },
-/*     { label: "Proceso", href: "#process" }, */
-    { label: "Nosotros", href: "#why-us" },
+    { label: "Especialidades", href: "#services" },
+    { label: "Tu Ventaja", href: "#solutions" },
+    { label: "Pasos", href: "#process" },
+    { label: "Confianza", href: "#why-us" },
 ];
 
 export const footerLinks = {
     services: [
-        { name: "Diseño Web", href: "#" },
-        { name: "Desarrollo", href: "#" },
-        { name: "SEO Local", href: "#" },
-        { name: "Branding", href: "#" },
+        { name: "Fincas Turísticas", href: "#" },
+        { name: "Glampings", href: "#" },
+        { name: "Experiencias de Café", href: "#" },
+        { name: "Páginas que Venden", href: "#" },
     ],
     company: [
-        { name: "Sobre Nosotros", href: "#" },
-        { name: "Proceso", href: "#" },
+        { name: "Cómo Ayudamos", href: "#" },
+        { name: "Proceso de Trabajo", href: "#" },
         { name: "Contacto", href: "#contact" },
     ],
     legal: [
