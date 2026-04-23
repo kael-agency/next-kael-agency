@@ -3,14 +3,14 @@
 import { Icon } from "@iconify/react";
 
 export const ProjectVisuals: Record<string, (image: string) => React.ReactNode> = {
-    "blade-and-grain": (image: string) => (
+    "glamping-tatacoa": (image: string) => (
         <div className="absolute inset-4 flex items-center justify-center">
             <div className="relative w-full h-full rounded-2xl bg-neutral-100 dark:bg-neutral-900 border border-neutral-200 dark:border-neutral-800 overflow-hidden transition-transform duration-500 group-hover:scale-[1.015]">
                 {/* Canvas interno con ajuste de color por tema */}
                 <div className="absolute inset-3 rounded-xl overflow-hidden bg-neutral-200 dark:bg-neutral-950 flex items-center justify-center">
                     <img
                         src={image}
-                        alt="Blade & Grain"
+                        alt="La Tatacoa"
                         className="w-full h-full object-contain p-4 opacity-60 dark:opacity-40 transition-transform duration-700 group-hover:scale-110"
                     />
                     {/* Overlay: Gris medio en claro, casi negro en dark */}
@@ -27,7 +27,7 @@ export const ProjectVisuals: Record<string, (image: string) => React.ReactNode> 
 
                     <div className="flex-1 flex flex-col items-center justify-center text-center p-4">
                         <div className="lg:w-16 lg:h-16 w-10 h-10 rounded-full border border-amber-600/30 bg-white/40 dark:bg-black/40 backdrop-blur-md flex items-center justify-center mb-4 shadow-xl">
-                            <Icon icon="solar:scissors-linear" className="text-amber-600 dark:text-amber-500 lg:w-8 lg:h-8 w-6 h-6" />
+                            <Icon icon="solar:sun-linear" className="text-amber-600 dark:text-amber-500 lg:w-8 lg:h-8 w-6 h-6" />
                         </div>
                         <div className="w-32 h-3 bg-neutral-400/30 dark:bg-neutral-200/20 rounded-full mb-2" />
                         <div className="w-24 h-2 bg-neutral-400/20 dark:bg-neutral-200/10 rounded-full" />
@@ -37,13 +37,13 @@ export const ProjectVisuals: Record<string, (image: string) => React.ReactNode> 
         </div>
     ),
 
-    "coffee-shop": (image: string) => (
+    "coffee-tour": (image: string) => (
         <div className="absolute inset-4 flex items-center justify-center">
             <div className="relative w-full h-full rounded-2xl bg-neutral-100 dark:bg-neutral-900 border border-neutral-200 dark:border-neutral-800 overflow-hidden transition-transform duration-500 group-hover:scale-[1.015]">
                 <div className="absolute inset-3 rounded-xl overflow-hidden bg-[#EFEDE6] dark:bg-[#1a110c] flex items-center justify-center">
                     <img
                         src={image}
-                        alt="Coffee Shop"
+                        alt="Ruta del Café Pitalito"
                         className="w-full h-full object-contain p-4 opacity-70 dark:opacity-40 transition-transform duration-700 group-hover:scale-110"
                     />
                     <div className="absolute inset-0 bg-[#C4A484]/20 dark:bg-[#1a110c]/70" />
