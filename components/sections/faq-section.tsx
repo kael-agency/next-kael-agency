@@ -60,7 +60,7 @@ export function FaqSection() {
                                 <motion.div
                                     animate={{ rotate: isOpen ? 180 : 0 }}
                                     transition={{ duration: 0.2 }}
-                                    className="flex-shrink-0 ml-4 w-8 h-8 rounded-full border border-neutral-200 dark:border-neutral-800 flex items-center justify-center text-neutral-500"
+                                    className="shrink-0 ml-4 w-8 h-8 rounded-full border border-neutral-200 dark:border-neutral-800 flex items-center justify-center text-neutral-500"
                                 >
                                     <Icon icon="solar:alt-arrow-down-linear" />
                                 </motion.div>
