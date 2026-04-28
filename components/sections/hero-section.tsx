@@ -15,7 +15,7 @@ export function HeroSection() {
             <BackgroundGrid />
 
             {/* Additional Glow for Hero - keeping strictly visual but simple */}
-            <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[500px] bg-neutral-200 dark:bg-neutral-800/20 blur-[120px] rounded-full opacity-50 z-0 pointer-events-none" />
+            <div className="absolute top-0 left-1/2 -translate-x-1/2 w-200 h-125 bg-neutral-200 dark:bg-neutral-800/20 blur-[120px] rounded-full opacity-50 z-0 pointer-events-none" />
 
             <div className="container relative z-10 mx-auto max-w-7xl px-6">
                 <div className="flex flex-col lg:flex-row items-center gap-16 lg:gap-24">

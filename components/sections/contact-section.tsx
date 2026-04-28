@@ -16,7 +16,7 @@ export function ContactSection() {
           However, Contact had a big center blur. I will simplify to just BG Grid for consistency, or add a very subtle one. 
           Let's stick to BackgroundGrid to be "Clean" and "No decorative JSX inside sections" as much as possible. 
       */}
-            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[500px] bg-neutral-200 dark:bg-neutral-800/20 blur-[120px] rounded-full opacity-50 pointer-events-none" />
+            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-200 h-125 bg-neutral-200 dark:bg-neutral-800/20 blur-[120px] rounded-full opacity-50 pointer-events-none" />
 
             <div className="container max-w-7xl mx-auto px-4 md:px-8 relative z-10">
                 <div className="max-w-4xl mx-auto text-center">

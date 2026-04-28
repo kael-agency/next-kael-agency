@@ -42,7 +42,7 @@ export function ProjectsSection() {
                             rel="noopener noreferrer"
                             className="group cursor-pointer block"
                         >
-                            <div className="relative aspect-[4/3] bg-neutral-100 dark:bg-neutral-900 rounded-2xl border border-neutral-200 dark:border-neutral-800 overflow-hidden mb-6">
+                            <div className="relative aspect-4/3 bg-neutral-100 dark:bg-neutral-900 rounded-2xl border border-neutral-200 dark:border-neutral-800 overflow-hidden mb-6">
                                 {ProjectVisuals[project.id as keyof typeof ProjectVisuals]?.(project.image)}
                             </div>
                             <div className="flex justify-between items-start">
